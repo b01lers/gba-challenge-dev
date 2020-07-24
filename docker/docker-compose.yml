@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+    devkitarm:
+        container_name: devkitarm
+        build:
+            context: ./
+        logging:
+            driver: "json-file"
+        ports:
+            - "3002:22"
+        volumes:
+            - devkitprovolume:/opt/devkitpro
+
+volumes:
+    devkitprovolume:
+        name: devkitprovolume
+        driver: local
+        driver_opts:
+            type: none
+            device: /home/novafacing/hub/bootcamp-2020/rev/02-super-spy/src/docker/devkitpro
+            o: bind

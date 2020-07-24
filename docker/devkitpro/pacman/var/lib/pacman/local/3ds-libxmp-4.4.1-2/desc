@@ -1,0 +1,36 @@
+%NAME%
+3ds-libxmp
+
+%VERSION%
+4.4.1-2
+
+%BASE%
+3ds-libxmp
+
+%DESC%
+Library that supports over 90 module formats
+
+%URL%
+http://xmp.sourceforge.net/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1569184575
+
+%INSTALLDATE%
+1593923114
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+847872
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+

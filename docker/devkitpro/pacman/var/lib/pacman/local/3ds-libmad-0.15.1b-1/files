@@ -1,0 +1,11 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/mad.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libmad.a
+opt/devkitpro/portlibs/3ds/lib/libmad.la
+

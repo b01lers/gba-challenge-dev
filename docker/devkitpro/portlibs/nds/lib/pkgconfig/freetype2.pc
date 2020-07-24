@@ -1,0 +1,14 @@
+prefix=/opt/devkitpro/portlibs/nds
+exec_prefix=/opt/devkitpro/portlibs/nds
+libdir=/opt/devkitpro/portlibs/nds/lib
+includedir=/opt/devkitpro/portlibs/nds/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.0.16
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: -lbz2
+Cflags: -I${includedir}/freetype2

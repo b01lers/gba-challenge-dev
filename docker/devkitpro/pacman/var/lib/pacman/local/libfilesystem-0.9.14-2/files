@@ -1,0 +1,9 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libnds/
+opt/devkitpro/libnds/include/
+opt/devkitpro/libnds/include/filesystem.h
+opt/devkitpro/libnds/lib/
+opt/devkitpro/libnds/lib/libfilesystem.a
+

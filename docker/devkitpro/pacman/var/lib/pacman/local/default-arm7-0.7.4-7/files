@@ -1,0 +1,6 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libnds/
+opt/devkitpro/libnds/default.elf
+

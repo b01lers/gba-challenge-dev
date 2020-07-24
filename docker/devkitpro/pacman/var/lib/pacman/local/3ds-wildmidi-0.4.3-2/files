@@ -1,0 +1,12 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/wildmidi_lib.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libWildMidi.a
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/wildmidi.pc
+

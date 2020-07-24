@@ -1,0 +1,36 @@
+%NAME%
+3ds-mikmod
+
+%VERSION%
+3.3.11.1-1
+
+%BASE%
+3ds-mikmod
+
+%DESC%
+Amodule player and library supporting many formats, including mod, s3m, it, and xm (Nintendo 3DS port)
+
+%URL%
+http://mikmod.sourceforge.net/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1521330676
+
+%INSTALLDATE%
+1593923114
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+493568
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+sha256
+

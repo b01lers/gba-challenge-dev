@@ -1,0 +1,14 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/SDL/
+opt/devkitpro/portlibs/3ds/include/SDL/SDL_image.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libSDL_image.a
+opt/devkitpro/portlibs/3ds/lib/libSDL_image.la
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/SDL_image.pc
+

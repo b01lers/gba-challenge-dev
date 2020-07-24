@@ -1,0 +1,17 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/jansson.h
+opt/devkitpro/portlibs/3ds/include/jansson_config.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libjansson.a
+opt/devkitpro/portlibs/3ds/lib/libjansson.la
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/jansson.pc
+opt/devkitpro/portlibs/3ds/licenses/
+opt/devkitpro/portlibs/3ds/licenses/3ds-jansson/
+opt/devkitpro/portlibs/3ds/licenses/3ds-jansson/LICENSE
+

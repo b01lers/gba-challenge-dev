@@ -1,0 +1,16 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libctru/
+opt/devkitpro/libctru/include/
+opt/devkitpro/libctru/include/c2d/
+opt/devkitpro/libctru/include/c2d/base.h
+opt/devkitpro/libctru/include/c2d/font.h
+opt/devkitpro/libctru/include/c2d/sprite.h
+opt/devkitpro/libctru/include/c2d/spritesheet.h
+opt/devkitpro/libctru/include/c2d/text.h
+opt/devkitpro/libctru/include/citro2d.h
+opt/devkitpro/libctru/lib/
+opt/devkitpro/libctru/lib/libcitro2d.a
+opt/devkitpro/libctru/lib/libcitro2dd.a
+

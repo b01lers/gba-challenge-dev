@@ -1,0 +1,10 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libnds/
+opt/devkitpro/libnds/include/
+opt/devkitpro/libnds/include/fat.h
+opt/devkitpro/libnds/include/libfatversion.h
+opt/devkitpro/libnds/lib/
+opt/devkitpro/libnds/lib/libfat.a
+

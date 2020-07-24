@@ -1,0 +1,615 @@
+00080000 N _stack
+02000000 T __ewram_start
+02000000 00000014 T m4_surface
+02000014 00000014 T m5_surface
+02000028 0000005c T nocash_message
+02000030 T nocash_buffer
+02000084 A __eheap_start
+02000084 A __end__
+02000084 A __ewram_end
+02000084 A __sbss_end__
+02000084 A __sbss_start__
+02040000 T __eheap_end
+03000000 T __iwram_start
+03000000 A __iwram_start__
+03000000 00000038 T memcpy32
+03000038 000000a0 T isr_master
+030000dc 0000004c T memset32
+03000128 000000f8 T chr4c_drawg_b4cts_fast
+03000228 000000d8 T bmp8_drawg_b1cts_fast
+03000304 000000fc T chr4c_drawg_b1cts_fast
+03000408 A __bss_start
+03000408 A __bss_start__
+03000408 A __iwram_end__
+03000408 b completed.1
+0300040c b object.0
+03000424 00000018 B gFont
+0300043c 00000020 B gStringBuffer
+0300045c 00000078 B __isr_table
+030004d4 00000002 B __key_curr
+030004d6 00000002 B __key_prev
+030004d8 00000048 B __tte_main_context
+03000520 00000004 b sConInitialized
+03000524 00000028 B __malloc_current_mallinfo
+0300054c 00000004 B __malloc_max_sbrked_mem
+03000550 00000004 B __malloc_max_total_mem
+03000554 00000004 B __malloc_top_pad
+03000558 00000004 b heap_start.0
+0300055c 00000004 B fake_heap_end
+03000560 00000004 B fake_heap_start
+03000564 00000048 B __syscalls
+030005ac A __bss_end__
+030005ac A __data_start__
+030005ac 000000a8 D gProfs
+03000654 00000020 D cSlidePal
+03000674 00000048 D gSlideStrings
+030006bc 00000010 D cSlideFonts
+030006cc 00000004 D __qran_seed
+030006d0 00000004 D vid_page
+030006d4 00000008 D __key_rpt
+030006dc 00000004 D gp_tte_context
+030006e0 0000000c d __sfp_recursive_mutex
+030006ec 0000000c d __sinit_recursive_mutex
+030006f8 00000004 D _impure_ptr
+03000700 00000460 d impure_data
+03000b60 0000016c D __global_locale
+03000ccc 00000408 D __malloc_av_
+030010d4 00000004 D __malloc_sbrk_base
+030010d8 00000004 D __malloc_trim_threshold
+030010dc 0000000c d __malloc_recursive_mutex
+030010e8 0000008c D devoptab_list
+03001174 00000004 d __hndl_lock
+03001178 0000000c d __stderr_handle
+03001184 0000000c d __stdin_handle
+03001190 0000000c d __stdout_handle
+0300119c 00001000 d handles
+0300219c T __TMC_END__
+0300219c t __frame_dummy_init_array_entry
+0300219c A __init_array_start
+0300219c A __preinit_array_end
+0300219c A __preinit_array_start
+030021a0 t __do_global_dtors_aux_fini_array_entry
+030021a0 A __fini_array_start
+030021a0 A __init_array_end
+030021a4 A __data_end__
+030021a4 A __fini_array_end
+030021a4 T __iheap_start
+030021a4 T __iwram_overlay_end
+030021a4 T __iwram_overlay_start
+03007f00 A __sp_usr
+03007fa0 A __sp_irq
+03007ff8 A __irq_flags
+03008000 T __iwram_top
+08000000 T __text_start
+08000000 T _start
+080000c0 t rom_header_end
+080000c4 T __boot_method
+080000c5 T __slave_number
+080000e0 T start_vector
+08000126 t DoEWRAMClear
+08000130 t SkipEWRAMClear
+08000166 t CIW0Skip
+08000170 t CEW0Skip
+08000186 t ClearMem
+08000190 t ClrLoop
+08000196 t ClearMX
+08000198 t _blx_r3_stub
+0800019a t CopyMemChk
+0800019c t CopyMem
+080001a4 t CIDLoop
+080001ac t CIDExit
+08000210 T _init
+08000220 t deregister_tm_clones
+0800024c t register_tm_clones
+08000280 t __do_global_dtors_aux
+080002b0 t frame_dummy
+080002d8 00000002 T null_drawg
+080002dc 000000d0 T chr4c_drawg_b1cts_base
+080003ac 000000d0 T bmp8_drawg_b1cts_base
+0800047c 000000d0 T bmp16_drawg_b1cts_base
+0800054c 0000007c T prof_draws
+080005c8 00000038 T prof_null_drawg
+08000600 00000068 T prof_se_drawg
+08000668 00000068 T prof_se_drawg_w8h16
+080006d0 0000006c T prof_ase_drawg
+0800073c 0000006c T prof_ase_drawg_w8h16
+080007a8 00000058 T prof_obj_drawg
+08000800 00000038 T prof_bmp16_drawg_b1cts_base
+08000838 00000038 T prof_bmp16_drawg_b1cts
+08000870 00000044 T prof_bmp8_drawg_b1cts
+080008b4 00000044 T prof_bmp8_drawg_b1cts_fast
+080008f8 00000044 T prof_bmp8_drawg_b1cts_base
+0800093c 00000054 T prof_chr4c_drawg_b1cts_fast
+08000990 00000054 T prof_chr4c_drawg_b1cts_base
+080009e4 00000054 T prof_chr4c_drawg_b1cts
+08000a38 00000050 T prof_chr4c_base
+08000a88 00000044 T prof_bmp8_base
+08000acc 00000038 T prof_bmp16_base
+08000b04 00000038 T prof_bmp16_drawg
+08000b3c 000000fc T test_speeds
+08000c3c 0000000c T menu_create
+08000c48 0000009c T menu_init
+08000ce4 000000e8 T menu_update_page
+08000dcc 000000c8 T menu_draw
+08000e94 00000134 T menu_run
+08000fc8 00000058 T menu_update_item
+08001020 00000084 T menu_act_clear
+080010a4 00000128 T menu_act_description
+080011cc 00000084 T menu_act
+08001254 00000110 T test_tte_se4
+08001364 000000a4 T test_tte_ase
+08001408 0000004c T test_tte_bmp16
+08001454 00000114 T test_tte_obj
+08001568 00000044 T test_vt
+080015ac 000000ac T test_fonts
+08001658 0000000e T test_chr4c_slide
+08001668 0000000e T test_bmp16_slide
+08001678 0000000e T test_bmp8_slide
+08001688 0000021c T test_tte_chr4c
+080018a4 00000078 T win_textbox
+0800191c 00000034 T main
+08001950 000000ec T slide_run
+08001a3c 00000190 T slide_menu
+08001bcc 0000018c T slide_show
+08001d58 0000000c T slide_test
+08001d68 0000002c T bg_aff_rotate
+08001d94 00000038 T bg_aff_rotscale
+08001dcc 00000068 T bg_aff_premul
+08001e34 00000064 T bg_aff_postmul
+08001e98 00000048 T bg_aff_rotscale2
+08001ee0 0000006c T bg_rotscale_ex
+08001f4c 000000bc T clr_rotate
+08002008 00000098 T clr_blend
+080020a0 0000008c T clr_fade
+0800212c 0000007e T clr_grayscale
+080021ac 000000c4 T clr_rgbscale
+08002270 000000ec T pal_gradient
+0800235c 00000018 T pal_gradient_ex
+08002374 0000005e T clr_adj_brightness
+080023d4 0000009e T clr_adj_contrast
+08002474 000000a0 T clr_adj_intensity
+08002514 0000000e T sbmp8_get_pixel
+08002524 0000003c T sbmp8_plot
+08002560 0000006a T sbmp8_vline
+080025cc 00000034 T sbmp8_hline
+08002600 0000013e T sbmp8_blit
+08002740 000000c2 T sbmp8_frame
+08002804 00000066 T sbmp8_rect
+0800286c 00000166 T sbmp8_line
+080029d4 0000010e T sbmp8_floodfill_internal
+08002ae4 00000028 T sbmp8_floodfill
+08002b0c 00000044 T irq_init
+08002b50 0000002c T irq_set_master
+08002b7c 0000010c T irq_set
+08002c88 0000006c T irq_add
+08002cf4 0000008c T irq_delete
+08002d80 00000048 T irq_enable
+08002dc8 00000044 T irq_disable
+08002e10 000000ae T tonccpy
+08002ec0 00000090 T __toncset
+08002f50 00000010 T sqran
+08002f60 00000020 T octant
+08002f80 00000052 T octant_rot
+08002fd4 00000026 T schr4c_get_pixel
+08002ffc 0000002e T schr4c_plot
+0800302c 000000d2 T schr4c_hline
+08003100 00000048 T schr4c_vline
+08003148 00000328 T schr4c_blit
+08003470 00000090 T schr4c_frame
+08003500 00000138 T schr4c_rect
+08003638 00000196 T schr4c_line
+080037d0 0000004a T schr4c_prep_map
+0800381c 00000010 T schr4c_get_ptr
+0800382c 00000150 T schr4c_floodfill_internal
+0800397c 00000034 T schr4c_floodfill
+080039b4 000000c8 T srf_init
+08003a7c 00000026 T srf_pal_copy
+08003aa4 0000005e T srf_get_ptr
+08003b04 00000048 T oam_init
+08003b4c 0000001e T obj_copy
+08003b6c 00000028 T obj_hide_multi
+08003b94 00000028 T obj_unhide_multi
+08003bc0 00000010 T sbmp16_get_pixel
+08003bd0 00000014 T sbmp16_plot
+08003be4 0000003a T sbmp16_vline
+08003c20 000000c4 T sbmp16_line
+08003ce4 0000002e T sbmp16_hline
+08003d14 0000014c T sbmp16_blit
+08003e60 00000088 T sbmp16_frame
+08003ee8 00000066 T sbmp16_rect
+08003f50 00000128 T sbmp16_floodfill_internal
+08004078 0000002c T sbmp16_floodfill
+080040a4 00000054 T key_poll
+080040f8 00000024 T key_wait_till_hit
+0800411c 0000000c T key_repeat
+08004128 00000010 T key_repeat_mask
+08004138 00000014 T key_repeat_limits
+0800414c 00000170 T tte_init_se
+080042bc 00000028 T chr4c_erase
+080042e4 000000dc T tte_init_chr4c
+080043c0 00000038 T obj_erase
+080043f8 0000004c T obj_drawg
+08004444 00000002 T dummy_drawg
+08004448 00000002 T dummy_erase
+0800444c 00000018 T tte_set_context
+08004464 00000010 T tte_set_color_attr
+08004474 0000001c T tte_set_color_attrs
+08004490 00000020 T tte_set_color
+080044b0 00000040 T tte_set_colors
+080044f0 00000090 T tte_init_base
+08004580 000000b4 T utf8_decode_char
+08004634 00000010 T tte_cmd_skip
+08004644 00000044 T tte_cmd_next
+08004688 00000050 T tte_putc
+080046d8 0000001c T tte_erase_rect
+080046f4 00000024 T tte_erase_screen
+08004718 00000028 T tte_erase_line
+08004740 00000492 T tte_cmd_default
+08004bd4 000000e8 T tte_write
+08004cbc 00000030 T tte_write_ex
+08004cec 000000d0 T tte_get_text_size
+08004dbc 00000018 T tte_set_margins
+08004ddc 000000fc T tte_init_obj
+08004ed8 000000a8 T bmp16_drawg_b1cts
+08004f80 000000d4 T bmp16_drawg_b1cos
+08005054 0000007c T bmp16_drawg
+080050d0 0000008c T bmp16_drawg_t
+0800515c 00000130 T chr4c_drawg_b1cts
+0800528c 00000128 T tte_init_ase
+080053b4 0000002c T ase_erase
+080053e0 0000005c T ase_drawg_w8h8
+0800543c 000000a4 T ase_drawg_w8h16
+080054e0 000000e4 T ase_drawg
+080055c4 000000ec T ase_drawg_s
+080056b0 0000002c T se_erase
+080056dc 00000030 T se_drawg_w8h8
+0800570c 00000040 T se_drawg_w8h16
+0800574c 00000068 T se_drawg
+080057b4 00000068 T se_drawg_s
+0800581c 00000074 T tte_con_nocash
+08005890 00000044 T tte_init_con
+080058d4 00000168 T tte_cmd_vt100
+08005a3c 00000158 T tte_con_write
+08005b98 00000028 T bmp8_erase
+08005bc0 00000028 T bmp16_erase
+08005be8 000000e4 T tte_init_bmp
+08005ccc 000000f4 T bmp8_drawg_b1cts
+08005dc0 00000118 T bmp8_drawg_b1cos
+08005ed8 00000004 T SoftReset
+08005edc 00000004 T RegisterRamReset
+08005ee0 00000004 T Halt
+08005ee4 00000004 T Stop
+08005ee8 00000004 T IntrWait
+08005eec 00000004 T VBlankIntrWait
+08005ef0 00000004 T Div
+08005ef4 00000004 T DivArm
+08005ef8 00000004 T Sqrt
+08005efc 00000004 T ArcTan
+08005f00 00000004 T ArcTan2
+08005f04 00000004 T CpuSet
+08005f08 00000004 T CpuFastSet
+08005f0c 00000004 T BiosCheckSum
+08005f10 00000004 T BgAffineSet
+08005f14 00000004 T ObjAffineSet
+08005f18 00000004 T BitUnPack
+08005f1c 00000004 T LZ77UnCompWram
+08005f20 00000004 T LZ77UnCompVram
+08005f24 00000004 T HuffUnComp
+08005f28 00000004 T RLUnCompWram
+08005f2c 00000004 T RLUnCompVram
+08005f30 00000004 T Diff8bitUnFilterWram
+08005f34 00000004 T Diff8bitUnFilterVram
+08005f38 00000004 T Diff16bitUnFilter
+08005f3c 00000004 T SoundBias
+08005f40 00000004 T SoundDriverInit
+08005f44 00000004 T SoundDriverMode
+08005f48 00000004 T SoundDriverMain
+08005f4c 00000004 T SoundDriverVSync
+08005f50 00000004 T SoundChannelClear
+08005f54 00000004 T MidiKey2Freq
+08005f58 00000004 T MultiBoot
+08005f5c 00000004 T SoundDriverVSyncOff
+08005f60 00000004 T SoundDriverVSyncOn
+08005f64 0000003e T memcpy16
+08005fa8 00000010 T VBlankIntrDelay
+08005fb8 00000012 T DivSafe
+08005fcc 00000006 T Mod
+08005fd4 00000006 T DivAbs
+08005fdc 00000006 T DivArmMod
+08005fe4 00000006 T DivArmAbs
+08005fec 00000010 T CpuFastFill
+08005ffc 00000036 T memset16
+08006038 T __aeabi_idiv
+08006038 00000130 T __divsi3
+08006040 t .divsi3_skip_div0_test
+08006168 00000020 T __aeabi_idivmod
+08006188 00000002 W __aeabi_idiv0
+08006188 00000002 W __aeabi_ldiv0
+0800618c 0000004e T __libc_init_array
+080061dc 00000024 T iprintf
+08006200 000000ba T memmove
+080062bc 000000ae T memset
+0800636c 000001ac T setvbuf
+08006518 00000040 T siprintf
+08006558 0000004c T siscanf
+080065a4 00000040 T sprintf
+080065e4 00000034 T __sread
+08006618 00000004 T __seofread
+0800661c 00000054 T __swrite
+08006670 00000040 T __sseek
+080066b0 00000010 T __sclose
+080066c0 00000060 T strlen
+08006720 00000074 T strncpy
+08006794 00000150 t _strtol_l.part.0
+080068e4 00000020 T _strtol_r
+08006904 00000030 T strtol
+08006934 000003ee t get_arg
+08006d24 00000124 T __ssprint_r
+08006e48 00001782 T _svfiprintf_r
+080085cc 00000032 t get_arg
+080085fe 0000007e T _sungetc_r
+0800867c 00000042 T __ssrefill_r
+080086be 0000008a T _sfread_r
+08008748 00001b6c T __ssvfiscanf_r
+0800a2b4 000003ee t get_arg
+0800a6a4 00002496 T _svfprintf_r
+0800cb3c 00000088 T __submore
+0800cbc4 000003ee t get_arg
+0800cfb4 00000020 T __sprint_r
+0800cfd4 00001800 T _vfiprintf_r
+0800e7d4 0000008c t __sbprintf
+0800e860 0000005a T _wcrtomb_r
+0800e8bc 0000001a T _wcsrtombs_r
+0800e8d8 000000e2 T __swsetup_r
+0800e9bc 0000014a t quorem
+0800eb08 00000ff0 T _dtoa_r
+0800faf8 0000000c T __errno
+0800fb04 000001c0 T __sflush_r
+0800fcc4 00000070 T _fflush_r
+0800fd34 00000014 T _cleanup_r
+0800fd48 00000124 T __sinit
+0800fe6c 00000014 T __sfp_lock_acquire
+0800fe80 00000014 T __sfp_lock_release
+0800fe94 000000a0 T _malloc_trim_r
+0800ff34 000001e0 T _free_r
+08010114 00000324 T __sfvwrite_r
+08010438 00000050 T _fwalk_reent
+08010488 0000000e T iswspace
+08010498 00000008 T _localeconv_r
+080104a0 00000010 T __locale_mb_cur_max
+080104b0 000000ec T __smakebuf_r
+0801059c 00000064 T __swhatbuf_r
+08010600 00000014 T malloc
+08010614 00000014 T free
+08010628 0000059c T _malloc_r
+08010bc4 0000005e T _mbrtowc_r
+08010c24 00000280 T __utf8_mbtowc
+08010ea4 00000078 T memchr
+08010f1c 000000a6 T memcpy
+08010fc4 00000014 T __malloc_lock
+08010fd8 00000014 T __malloc_unlock
+08010fec 00000052 T _Balloc
+08011040 00000014 T _Bfree
+08011054 000000ac T __multadd
+08011100 00000036 T __hi0bits
+08011138 0000005a T __lo0bits
+08011194 00000064 T __i2b
+080111f8 000001a8 T __multiply
+080113a0 000000dc T __pow5mult
+0801147c 00000100 T __lshift
+0801157c 00000038 T __mcmp
+080115b4 00000190 T __mdiff
+08011744 000000dc T __d2b
+08011820 00000018 T realloc
+08011838 0000038c T _realloc_r
+08011bc4 0000008e T __sccl
+08011c54 00000068 T frexp
+08011cbc 00000224 T strcmp
+08011ee0 000001ac t _strtoll_l.constprop.0
+0801208c 0000000c T _strtoll_r
+08012098 000001c8 t _strtoull_l.constprop.0
+08012260 0000000c T _strtoull_r
+0801226c 00000148 t _strtoul_l.constprop.0
+080123b4 0000000c T _strtoul_r
+080123c0 00000138 T _wcsnrtombs_l
+080124f8 00000030 T _wcsnrtombs_r
+08012528 000000b4 T __utf8_wctomb
+080125dc 00000040 T __assert_func
+0801261c 0000005e T _calloc_r
+0801267c 000000e6 T _fclose_r
+08012764 00000026 T fiprintf
+0801278c 0000002c T iswspace_l
+080127b8 00000164 t __jp2uc
+0801291c 0000006c T _jp2uc_l
+08012988 0000000e T abort
+08012998 00000054 T category
+080129ec 00000062 T _raise_r
+08012a50 00000014 T raise
+08012a64 00000004 t null_write
+08012a68 0000004a T _fstat_r
+08012ab4 0000000a T _getpid_r
+08012ac0 00000004 T _isatty_r
+08012ac4 0000000a T _kill_r
+08012ad0 0000005a T _lseek_r
+08012b2c 0000004e T _read_r
+08012b7c 00000054 T _sbrk_r
+08012bd0 0000004e T _write_r
+08012c20 00000016 T _exit
+08012c38 0000000e T __flockfile
+08012c48 0000000e T __funlockfile
+08012c58 0000001a T __libc_lock_acquire
+08012c74 0000001a T __libc_lock_release
+08012c90 0000001a T __libc_lock_init_recursive
+08012cac 0000001a T __libc_lock_acquire_recursive
+08012cc8 0000001a T __libc_lock_release_recursive
+08012ce4 0000001a T __libc_lock_close_recursive
+08012d00 00000034 T __get_handle
+08012d34 000000b6 T _close_r
+08012dec 00000026 T __getreent
+08012e14 00000012 T __gnu_thumb1_case_uqi
+08012e28 00000014 T __gnu_thumb1_case_uhi
+08012e3c t .udivsi3_skip_div0_test
+08012e3c T __aeabi_uidiv
+08012e3c 000000fc T __udivsi3
+08012f38 00000020 T __aeabi_uidivmod
+08012f58 T __aeabi_drsub
+08012f60 00000314 T __aeabi_dsub
+08012f60 00000314 T __subdf3
+08012f64 00000310 T __adddf3
+08012f64 00000310 T __aeabi_dadd
+08013274 00000024 T __aeabi_ui2d
+08013274 00000024 T __floatunsidf
+08013298 00000028 T __aeabi_i2d
+08013298 00000028 T __floatsidf
+080132c0 00000048 T __aeabi_f2d
+080132c0 00000048 T __extendsfdf2
+08013308 00000074 T __aeabi_ul2d
+08013308 00000074 T __floatundidf
+0801331c 00000060 T __aeabi_l2d
+0801331c 00000060 T __floatdidf
+0801337c 00000290 T __aeabi_dmul
+0801337c 00000290 T __muldf3
+0801360c 0000020c T __aeabi_ddiv
+0801360c 0000020c T __divdf3
+08013818 00000098 T __gedf2
+08013818 00000098 T __gtdf2
+08013820 00000090 T __ledf2
+08013820 00000090 T __ltdf2
+08013828 00000088 T __cmpdf2
+08013828 00000088 T __eqdf2
+08013828 00000088 T __nedf2
+080138b0 00000034 T __aeabi_cdrcmple
+080138cc 00000018 T __aeabi_cdcmpeq
+080138cc 00000018 T __aeabi_cdcmple
+080138e4 00000018 T __aeabi_dcmpeq
+080138fc 00000018 T __aeabi_dcmplt
+08013914 00000018 T __aeabi_dcmple
+0801392c 00000018 T __aeabi_dcmpge
+08013944 00000018 T __aeabi_dcmpgt
+0801395c 00000038 T __aeabi_dcmpun
+0801395c 00000038 T __unorddf2
+08013994 0000005c T __aeabi_d2iz
+08013994 0000005c T __fixdfsi
+080139f0 T __aeabi_uldivmod
+08013a2c 00000054 T __aeabi_lmul
+08013a2c 00000054 T __muldi3
+08013a80 0000019a T __udivmoddi4
+08013c1c 00000028 T __clzdi2
+08013c44 00000048 T __clzsi2
+08013c90 0000000c t ____udivmoddi4_from_arm
+08013c9c 00000008 t ____aeabi_uidiv_from_thumb
+08013ca4 0000000c t ____aeabi_idiv0_from_arm
+08013cb0 00000008 t ____aeabi_dsub_from_thumb
+08013cb8 00000008 t ____aeabi_i2d_from_thumb
+08013cc0 00000008 t ____aeabi_uldivmod_from_thumb
+08013cc8 00000008 t ____aeabi_d2iz_from_thumb
+08013cd0 0000000c t ____aeabi_ldiv0_from_arm
+08013cdc 00000008 t ____aeabi_idiv_from_thumb
+08013ce4 00000008 t ____aeabi_dcmpun_from_thumb
+08013cec 00000008 t ____aeabi_uidivmod_from_thumb
+08013cf4 00000008 t ____aeabi_dmul_from_thumb
+08013cfc 00000008 t ____aeabi_dadd_from_thumb
+08013d04 00000008 t ____aeabi_dcmple_from_thumb
+08013d0c 00000008 t ____clzdi2_from_thumb
+08013d14 00000008 t ____aeabi_ddiv_from_thumb
+08013d1c 00000008 t ____aeabi_dcmpeq_from_thumb
+08013d24 00000008 t ____aeabi_ui2d_from_thumb
+08013d2c 00000008 t ____aeabi_dcmplt_from_thumb
+08013d34 00000008 t __strcmp_from_thumb
+08013d3c 00000008 t ____aeabi_idivmod_from_thumb
+08013d44 00000008 t ____aeabi_dcmpgt_from_thumb
+08013d58 T __text_end
+08013d58 T _fini
+08013d8c 000000b0 R cUnits
+08013e48 00000048 R cSlides
+08013e90 00000044 R cSlideText5
+08013ed4 00000024 R cSlideText4
+08013ef8 00000024 R cSlideText3
+08013f1c 00000010 R cSlideText2
+08013f2c 00000024 R cSlideText1
+08013f50 00000028 R cSlideText0
+08013f78 00000028 R cSlideRGB
+08013fa0 00000028 R cSlideClrid
+08013fc8 R yesh1Font
+08013fe0 R yesh1Glyphs
+080157e0 R cyber16Font
+080157f8 R cyber16Glyphs
+08016ff8 R cyber16Pal
+08017018 R verdana11Font
+08017030 R verdana11Glyphs
+08017c30 R verdana11Widths
+08017c90 00000038 r __irq_senders
+08017cc8 00000030 R __snd_rates
+08017cf8 00000010 R bg_aff_default
+08017d08 00000018 R oam_sizes
+08017d3c 00000028 R bmp16_tab
+08017d64 00000014 R m3_surface
+08017eb4 00000014 r srf.0
+08017f9c 00000070 R tte_dotab_stdout
+0801800c 00000070 R tte_dotab_nocash
+0801807c 00000404 R sin_lut
+08018480 00000404 R div_lut
+08018884 R verdana9Font
+0801889c R verdana9Glyphs
+0801969c R verdana9Widths
+0801977c R verdana10Font
+08019794 R verdana10Glyphs
+0801b394 R verdana10Widths
+0801b474 R verdana9bFont
+0801b48c R verdana9bGlyphs
+0801c28c R verdana9bWidths
+0801c36c R sys8Font
+0801c384 R sys8Glyphs
+0801c684 R verdana9iFont
+0801c69c R verdana9iGlyphs
+0801d49c R verdana9iWidths
+0801d57c R verdana9_b4Font
+0801d594 R verdana9_b4Glyphs
+08020d94 R verdana9_b4Widths
+08020e74 R dungeon01Tiles
+08021998 R dungeon01Map
+08022170 R dungeon01Pal
+0802227c R menu_gfxBitmap
+08022d5c R menu_gfxPal
+08022f5c R dlgboxTiles
+08023e5c R dlgboxPal
+080256f8 00000101 R _ctype_
+08025824 0000006c R __action_table
+08025890 00000100 R __chclass
+08025990 0000006c R __state_table
+080259fc 00000010 r blanks.1
+08025a0c 00000010 r zeroes.0
+08025a1c 00000022 r basefix.0
+08025a50 00000010 r blanks.1
+08025a60 00000010 r zeroes.0
+08025a70 00000010 r blanks.1
+08025a80 00000010 r zeroes.0
+08025b78 00000028 R __mprec_bigtens
+08025ba0 000000c8 R __mprec_tens
+08025c68 0000000c r p05.0
+08025ce8 000000bc r a1
+08025da4 000000bc r a2
+08025e60 0000005b r a3
+08025ebc 00000070 r a6
+08025f2c 000000a2 r a7
+08025fd0 00000040 r a8
+08026010 0000172a r b02cf
+0802773c 00001a7c r d02f4
+080291b8 000031e6 r categories
+0802c3a8 00000070 R dotab_stdnull
+0802c418 r 
+0802c418 r __FRAME_END__
+0802c418 R __exidx_end
+0802c418 R __exidx_start
+0802c41c R __iwram_lma
+0802c824 A __data_lma
+0802e414 A __init_lma
+0802e414 A __preinit_lma
+0802e418 A __fini_lma
+0802e41c A __ewram_lma
+0802e41c A __iwram_overlay_lma
+0802e41c A __jcr_lma
+0802e41c A __load_start_iwram0
+0802e41c A __load_stop_iwram0
+0802e4a0 A __pad_lma
+0802e4a8 A __rom_end__

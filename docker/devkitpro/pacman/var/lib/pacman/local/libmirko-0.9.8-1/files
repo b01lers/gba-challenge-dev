@@ -1,0 +1,17 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libmirko/
+opt/devkitpro/libmirko/include/
+opt/devkitpro/libmirko/include/cpp_prototypes.h
+opt/devkitpro/libmirko/include/fileio.h
+opt/devkitpro/libmirko/include/gp32.h
+opt/devkitpro/libmirko/include/gp32_registers.h
+opt/devkitpro/libmirko/include/sbox.h
+opt/devkitpro/libmirko/include/sprite.h
+opt/devkitpro/libmirko/include/zda.h
+opt/devkitpro/libmirko/lib/
+opt/devkitpro/libmirko/lib/libaddon.a
+opt/devkitpro/libmirko/lib/libmirkoSDK.a
+opt/devkitpro/libmirko/license.txt
+

@@ -1,0 +1,15 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/bin/
+opt/devkitpro/portlibs/3ds/bin/libmikmod-config
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/mikmod.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libmikmod.a
+opt/devkitpro/portlibs/3ds/lib/libmikmod.la
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/libmikmod.pc
+

@@ -1,0 +1,36 @@
+%NAME%
+3ds-pkg-config
+
+%VERSION%
+0.28-5
+
+%BASE%
+3ds-pkg-config
+
+%DESC%
+pkg-config wrapper (for Nintendo 3DS homebrew development)
+
+%URL%
+http://devkitpro.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1592786882
+
+%INSTALLDATE%
+1593923105
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+25600
+
+%GROUPS%
+3ds-dev
+
+%VALIDATION%
+sha256
+

@@ -1,0 +1,17 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/tinyxml2.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/cmake/
+opt/devkitpro/portlibs/3ds/lib/cmake/tinyxml2/
+opt/devkitpro/portlibs/3ds/lib/cmake/tinyxml2/tinyxml2Config.cmake
+opt/devkitpro/portlibs/3ds/lib/cmake/tinyxml2/tinyxml2Targets-noconfig.cmake
+opt/devkitpro/portlibs/3ds/lib/cmake/tinyxml2/tinyxml2Targets.cmake
+opt/devkitpro/portlibs/3ds/lib/libtinyxml2.a
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/tinyxml2.pc
+

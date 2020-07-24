@@ -1,0 +1,13 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/bzlib.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libbz2.a
+opt/devkitpro/portlibs/3ds/licenses/
+opt/devkitpro/portlibs/3ds/licenses/3ds-bzip2/
+opt/devkitpro/portlibs/3ds/licenses/3ds-bzip2/LICENSE
+

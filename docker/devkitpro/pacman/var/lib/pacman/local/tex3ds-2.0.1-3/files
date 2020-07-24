@@ -1,0 +1,11 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/licenses/
+opt/devkitpro/licenses/tex3ds/
+opt/devkitpro/licenses/tex3ds/COPYING
+opt/devkitpro/tools/
+opt/devkitpro/tools/bin/
+opt/devkitpro/tools/bin/mkbcfnt
+opt/devkitpro/tools/bin/tex3ds
+

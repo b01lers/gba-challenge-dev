@@ -1,0 +1,12 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/licenses/
+opt/devkitpro/licenses/3dstools/
+opt/devkitpro/licenses/3dstools/COPYING
+opt/devkitpro/tools/
+opt/devkitpro/tools/bin/
+opt/devkitpro/tools/bin/3dsxdump
+opt/devkitpro/tools/bin/3dsxtool
+opt/devkitpro/tools/bin/smdhtool
+

@@ -1,0 +1,17 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/include/
+opt/devkitpro/portlibs/3ds/include/archive.h
+opt/devkitpro/portlibs/3ds/include/archive_entry.h
+opt/devkitpro/portlibs/3ds/lib/
+opt/devkitpro/portlibs/3ds/lib/libarchive.a
+opt/devkitpro/portlibs/3ds/lib/libarchive.la
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/
+opt/devkitpro/portlibs/3ds/lib/pkgconfig/libarchive.pc
+opt/devkitpro/portlibs/3ds/licenses/
+opt/devkitpro/portlibs/3ds/licenses/3ds-libarchive/
+opt/devkitpro/portlibs/3ds/licenses/3ds-libarchive/COPYING
+

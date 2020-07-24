@@ -1,0 +1,36 @@
+%NAME%
+3ds-libmad
+
+%VERSION%
+0.15.1b-1
+
+%BASE%
+3ds-libmad
+
+%DESC%
+A high-quality MPEG audio decoder. (for Nintendo 3DS homebrew development)
+
+%URL%
+https://www.underbit.com
+
+%ARCH%
+any
+
+%BUILDDATE%
+1521414028
+
+%INSTALLDATE%
+1593923114
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+164864
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+

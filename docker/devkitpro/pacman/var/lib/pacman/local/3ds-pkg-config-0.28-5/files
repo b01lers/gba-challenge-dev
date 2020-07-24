@@ -1,0 +1,8 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/3ds/
+opt/devkitpro/portlibs/3ds/bin/
+opt/devkitpro/portlibs/3ds/bin/arm-none-eabi-pkg-config
+

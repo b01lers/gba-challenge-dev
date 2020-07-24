@@ -1,0 +1,13 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/libnds/
+opt/devkitpro/libnds/include/
+opt/devkitpro/libnds/include/maxmod7.h
+opt/devkitpro/libnds/include/maxmod9.h
+opt/devkitpro/libnds/include/mm_types.h
+opt/devkitpro/libnds/lib/
+opt/devkitpro/libnds/lib/libmm7.a
+opt/devkitpro/libnds/lib/libmm9.a
+opt/devkitpro/libnds/maxmod_license.txt
+

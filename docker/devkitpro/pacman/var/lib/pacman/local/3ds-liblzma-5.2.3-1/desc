@@ -1,0 +1,36 @@
+%NAME%
+3ds-liblzma
+
+%VERSION%
+5.2.3-1
+
+%BASE%
+3ds-liblzma
+
+%DESC%
+A compression library with an API similar to that of zlib. (for Nintendo 3DS homebrew development)
+
+%URL%
+https://tukaani.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1521572486
+
+%INSTALLDATE%
+1593923114
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+481280
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+

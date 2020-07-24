@@ -1,0 +1,44 @@
+%NAME%
+3ds-libarchive
+
+%VERSION%
+3.1.2-3
+
+%BASE%
+3ds-libarchive
+
+%DESC%
+library that can create and read several streaming archive format (for Nintendo 3DS homebrew development)
+
+%URL%
+https://www.libarchive.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1550672762
+
+%INSTALLDATE%
+1593923114
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+1103872
+
+%GROUPS%
+3ds-portlibs
+
+%LICENSE%
+Simplified BSD
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+3ds-bzip2
+3ds-zlib
+3ds-liblzma
+

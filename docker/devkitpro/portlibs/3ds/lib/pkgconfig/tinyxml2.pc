@@ -1,0 +1,10 @@
+prefix=/opt/devkitpro/portlibs/3ds
+exec_prefix=${prefix}
+libdir=/opt/devkitpro/portlibs/3ds/lib
+includedir=/opt/devkitpro/portlibs/3ds/include
+
+Name: TinyXML2
+Description: simple, small, C++ XML parser
+Version: 6.0.0
+Libs: -L${libdir} -ltinyxml2
+Cflags: -I${includedir}

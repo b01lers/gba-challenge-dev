@@ -1,0 +1,36 @@
+%NAME%
+nds-pkg-config
+
+%VERSION%
+0.28-4
+
+%BASE%
+nds-pkg-config
+
+%DESC%
+pkg-config wrapper (for Nintendo DS homebrew development)
+
+%URL%
+http://devkitpro.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1592786347
+
+%INSTALLDATE%
+1593923110
+
+%PACKAGER%
+Dave Murphy <davem@devkitpro.org>
+
+%SIZE%
+25600
+
+%GROUPS%
+nds-dev
+
+%VALIDATION%
+sha256
+

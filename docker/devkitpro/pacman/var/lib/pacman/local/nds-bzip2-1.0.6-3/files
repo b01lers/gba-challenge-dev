@@ -1,0 +1,13 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/nds/
+opt/devkitpro/portlibs/nds/include/
+opt/devkitpro/portlibs/nds/include/bzlib.h
+opt/devkitpro/portlibs/nds/lib/
+opt/devkitpro/portlibs/nds/lib/libbz2.a
+opt/devkitpro/portlibs/nds/licenses/
+opt/devkitpro/portlibs/nds/licenses/nds-bzip2/
+opt/devkitpro/portlibs/nds/licenses/nds-bzip2/LICENSE
+

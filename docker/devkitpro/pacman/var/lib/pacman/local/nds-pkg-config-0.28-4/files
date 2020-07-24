@@ -1,0 +1,8 @@
+%FILES%
+opt/
+opt/devkitpro/
+opt/devkitpro/portlibs/
+opt/devkitpro/portlibs/nds/
+opt/devkitpro/portlibs/nds/bin/
+opt/devkitpro/portlibs/nds/bin/arm-none-eabi-pkg-config
+

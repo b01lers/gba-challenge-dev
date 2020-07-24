@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/opt/devkitpro/portlibs/3ds
+exec_prefix=/opt/devkitpro/portlibs/3ds
+libdir=/opt/devkitpro/portlibs/3ds/lib
+includedir=/opt/devkitpro/portlibs/3ds/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.2.3
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private:  -lctru
